@@ -19,6 +19,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,"Button 被点击了"+a,Toast.LENGTH_SHORT).show();
             }
         });
-//        HookViewClickUtil.hookView(btn);
+        HookViewClickUtil.hookView(btn);
     }
 }
